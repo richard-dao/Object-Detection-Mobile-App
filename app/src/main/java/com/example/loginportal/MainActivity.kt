@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         password = findViewById(R.id.editTextTextPassword2)
 
         loginButton.setOnClickListener {
-            // Call a function to insert test data
+            // insertTestData(email, password)
             if (validateData(email, password)) {
                 Log.d("MainActivity", "Login Successful")
 

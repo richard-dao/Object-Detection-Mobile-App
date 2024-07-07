@@ -11,8 +11,8 @@ class ConSQL {
     fun conclass(): Connection? {
         val ip="192.168.12.122"
         val port ="1433"
-        val db = "CovenantDatabase"
-        val username = "CovenantLogin"
+        val db = "UCSC-Object-Detection-Database"
+        val username = "TestLogin"
         val password = "Password123!"
         var con: Connection? = null
 
